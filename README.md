@@ -50,4 +50,4 @@ This project is licensed under the [Apache 2.0](LICENSE).
 
 ## Contact
 
-If you have any questions or feedback, please open an issue in the GitHub repository or contact the maintainers at [torbjöurn.nordling@nordlinglab.org](mailto:your-email@example.com) or [jagmohan.meher@nordlinglab.org](mailto:jagmohan.meher@nordlinglab.org)
+If you have any questions or feedback, please open an issue in the GitHub repository or contact the maintainers at [torbjörn.nordling@nordlinglab.org](mailto:torbjörn.nordling@nordlinglab.org) or [jagmohan.meher@nordlinglab.org](mailto:jagmohan.meher@nordlinglab.org)
