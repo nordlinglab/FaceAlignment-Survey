@@ -1,0 +1,42 @@
+#ASM
+
+## What is ASM?
+
+ASM was introduced by Cootes and Taylor and is grounded on the concept of iteratively updating the shape of an object within an image to better align with the actual object's shape. It does so by using a set of predefined landmarks on the object that are statistically modelled from a training set of correctly annotated images.
+
+For faces, these landmarks typically represent key facial features such as the eyes, nose, mouth, and jawline. The ASM uses a combination of these landmarks to define a 'mean shape,' which can be transformed to fit new instances of faces in new images.
+
+## facial_landmark_asm_analysis.py 
+This code is for training an ASM model using the public datasets. Try it out to understand the training process step by step. 
+
+## Data Directory
+
+This directory is intended for storing datasets used in the project. To replicate the results of the analysis, you should download the necessary datasets and organise them as described below.
+
+## Dataset Organization
+
+The project expects the following directory structure for datasets:
+
+
+Data/
+├── 300W/
+│ ├── Train/
+│ │ ├── 300W_train.txt
+│ │ └── images/
+│ └── Test/
+│ ├── 300W_test.txt
+│ └── images/
+└── FRGC/
+├── Train/
+│ ├── FRGC_train.txt
+│ └── images/
+└── Test/
+├── FRGC_test.txt
+└── images
+
+
+
+## Downloading the Datasets
+Datasets like 300W and FRGC can be found in the following - 
+[https://github.com/jiankangdeng/MenpoBenchmark]
+Additional datasets that can be used are COFW, MultiPIE, XM2VTS and FRGC
